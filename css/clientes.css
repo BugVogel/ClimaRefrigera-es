@@ -1,0 +1,42 @@
+.logo-navbar {
+    max-height: 50px;
+}
+
+.navbar-color {
+    background-color: #6782AC;
+    border-color: #96ACCD;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #446392;
+
+}
+.nav>li>a {
+    color: #C9D5E9;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.flush {
+    padding: 0
+}
+
+.navbar-toggle {
+    border: 1px solid #C9D5E9;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #C9D5E9;
+}
+
+.mudar-tipo {
+    background: #ffef8e; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fff9d8 0%, #ffef8e 47%, #ffef8e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fff9d8 0%,#ffef8e 47%,#ffef8e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fff9d8 0%,#ffef8e 47%,#ffef8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    border-radius: 7px;
+    padding: 4px !important;
+    text-align: center;
+    margin-top: 10px;
+    color: #2A4A7D!important;
+}
