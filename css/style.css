@@ -1,10 +1,6 @@
 body{
 
     background-color:rgb(150,172,205);
-    margin-top:-280px;
-    margin-bottom: 700px;
-    
-
 
 
 }
@@ -47,6 +43,7 @@ p{
    right:420px;
    top:-100px;
    position:relative;
+   background-color:rgb(69,99,146);
 
 
 
@@ -62,23 +59,29 @@ p{
   right:250px;
   top:-100px;
   position:relative;
+  background-color:rgb(69,99,146);
 
 
+}
+
+#logo{
+
+  position:relative;
 }
 
 #logolocal{
 
    display:block;
-   padding:40px;
+   padding:10px;
    background-color:rgb(69,99,146);
-   border-radius:10px;
-   margin-left: 540px;
-   margin-right: 530px;
+   width:15%;
+   height:10%;
+   bottom:-100px;
 
 
 
-   bottom:-280px;
-   position:relative
+
+   position:relative;
 
 
 }
@@ -86,10 +89,16 @@ p{
 #cliente{
 
    float:left;
+   width:50%;
+   height:50%;
+
 
 }
 
 #profissional{
 
   float:right;
+  width:50%;
+  height:50%;
+
 }

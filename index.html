@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="description" content="Descrição aqui">
+  <meta name="description" content="Página Inicial - Escolha do modo de acesso">
 
 	<title>Clima Refrigerações</title>
 	<!-- Bootstrap -->
@@ -15,30 +15,36 @@
 </head>
 <body>
 
-<div id="logolocal"><center><img id="logo" src="images\logoEcompJr.jpg" height="200" width="200"> </center></div>
+
+<div class="container-fluid">
+<div class="container img-rounded"id="logolocal"><center><img class="img-responsive img-rounded"id="logo" src="images\logoEcompJr.jpg" height="200" width="200"> </center></div>
 
 
-<img id="cliente" src="images\cliente.jpg" alt="Imagem do Cliente" width="674">
 
 
 
-<img id="profissional" src="images\Profissional.jpg" alt="Imagem do Profissional" width="674" >
+
+<img class="img-responsive img-rounded" id="cliente" src="images\cliente.jpg" alt="Imagem do Cliente"  >
 
 
-<div>
-<a href=""><p id="b1">Sou Cliente</p></a>
+
+<img class="img-responsive img-rounded" id="profissional" src="images\Profissional.jpg" alt="Imagem do Profissional"  >
+
+<a id="b1" type="button" class="btn-primary btn-md img-rounded img-responsive" href="" > Sou Cliente</a>
+<a id="b2"type="button" class="btn-primary btn-md img-rounded img-responsive" href=""> Sou Profissional</a>
+
+
 </div>
 
-<div>
-<a href=""><p id="b2">Sou Profissional</p></a>
-</div>
 
 
 
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
+
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+
 	<!-- Bootstrap -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
