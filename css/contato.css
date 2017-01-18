@@ -33,6 +33,8 @@ border:solid 5px yellow;
 }
 .footer{
   background-color:rgb(69,99,146);
+  padding: 20px
+
 }
 #mapa{
     border:solid 5px LightBlue;

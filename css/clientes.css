@@ -88,3 +88,46 @@ h1,h3 {
     padding: 0px 0px 80px 0px;
     position: relative;
 }
+
+
+#footer{
+    fonto-family:"Times New Roman";
+    float: left;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+}
+
+#logo{
+    margin-top:50px;
+}
+
+.yellowLetter{
+  color:yellow;
+  font-family:"Times New Roman";
+}
+
+@media only screen and (max-width: 500px) {
+     #mapa{
+        height:600px;
+        width:500px;
+    }
+}
+
+#icones{
+  list-style-type:none;
+  overflow:hidden;
+}
+
+.icone{
+       padding:5px;
+       float:left;
+}
+#mapaFooter{
+border:solid 5px yellow;
+
+}
+.footer{
+  background-color:rgb(69,99,146);
+  padding: 20px
+}
