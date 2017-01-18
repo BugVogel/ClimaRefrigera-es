@@ -1,0 +1,105 @@
+body{
+
+    background-color:rgb(150,172,205);
+    position:relative;
+
+
+}
+
+
+a{
+
+  text-decoration:none;
+  color:white;
+}
+
+a:hover{
+
+  color:white;
+  text-decoration:none;
+
+}
+
+a:active{
+
+ background-color:powderblue;
+
+}
+
+p{
+
+   color:white;
+   border-radius: 3px;
+   background-color:rgb(69,99,146);
+   font-family:Times;
+
+
+}
+#b1{
+
+   float:left;
+   font-size: 20px;
+   padding:20px;
+   text-align:center;
+   right:420px;
+   top:-100px;
+   position:relative;
+   background-color:rgb(69,99,146);
+
+
+
+
+}
+
+#b2{
+
+  float:right;
+  font-size:20px;
+  padding:20px;
+  text-align:center;
+  right:250px;
+  top:-100px;
+  position:relative;
+  background-color:rgb(69,99,146);
+
+
+}
+
+#logo{
+
+  position:relative;
+}
+
+#logolocal{
+
+   display:block;
+   padding:10px;
+   background-color:rgb(69,99,146);
+   width:15%;
+   height:10%;
+   bottom:-100px;
+
+
+
+
+   position:relative;
+
+
+}
+
+#cliente{
+
+   float:left;
+   width:50%;
+   height:50%;
+
+
+}
+
+#profissional{
+
+  float:right;
+  width:50%;
+  height:50%;
+
+}

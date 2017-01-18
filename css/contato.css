@@ -1,0 +1,146 @@
+body {
+    position: relative;
+}
+
+#Footer{
+  fonto-family:"Times New Roman";
+}
+
+#contato{
+  font-family: "Times New Roman";
+}
+#logo{
+
+margin-top:50px;
+}
+
+#yellowLetter{
+  color:yellow;
+  font-family:"Times New Roman";
+}
+
+@media only screen and (max-width: 500px) {
+     #mapa{
+        height:600px;
+        width:500px;
+    }
+}
+
+
+#mapaFooter{
+border:solid 5px yellow;
+
+}
+.footer{
+  background-color:rgb(69,99,146);
+}
+#mapa{
+    border:solid 5px LightBlue;
+
+}
+
+#enviar{
+  background-color:rgb(69,99,146);
+  color:white;
+  font-family:"Times New Roman";
+}
+
+#nome{
+   width:50%;
+   font-family:"Times New Roman";
+}
+
+#email{
+
+    width:50%;
+    font-family:"Times New Roman";
+}
+
+hr{
+  border:solid 1px LightBlue;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+
+#linhaMeio{
+
+    border-right:solid 1px LightBlue;
+    height:530px;
+}
+
+#icones{
+
+  list-style-type:none;
+  overflow:hidden;
+
+
+}
+
+.icone{
+       padding:5px;
+
+       float:left;
+}
+
+
+.logo-navbar {
+    max-height: 50px;
+}
+
+.navbar-color {
+    background-color: #6782AC;
+    border-color: #96ACCD;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #446392;
+
+}
+.nav>li>a {
+    color: #C9D5E9;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.flush {
+    padding: 0
+}
+
+.navbar-toggle {
+    border: 1px solid #C9D5E9;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #C9D5E9;
+}
+
+.mudar-tipo {
+    background: #ffef8e; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fff9d8 0%, #ffef8e 47%, #ffef8e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fff9d8 0%,#ffef8e 47%,#ffef8e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fff9d8 0%,#ffef8e 47%,#ffef8e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    border-radius: 7px;
+    padding: 4px !important;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #2A4A7D!important;
+}
+
+.home {
+    background-color: white;
+    color: #446392;
+}
+
+h1 {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+#apresentacao h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #96ACCD;
+}
