@@ -9,4 +9,9 @@ $(document).ready(function(){
         autoplay: true,
         controls:true,
     });
+    $('.slider-autorizadas').slick({
+        slidesToShow: 4, 
+        slidesToScroll: 4
+
+    });
 });
