@@ -54,9 +54,64 @@ h1,h3 {
     font-family: "Times New Roman", Georgia, Serif;
 }
 
+#slide-produtos{
+
+border:solid 3px yellow;
+
+}
+
+#slide-servicos{
+border:solid 3px yellow;
+
+}
+
 #apresentacao h1 {
     text-transform: uppercase;
     font-size: 56px;
+}
+
+#quemsomos h1,h3{
+  font-size: 43px;
+  color: #446392;
+
+}
+
+#quemsomos hr{
+
+  border:solid 1px LightBlue;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+#produtos h1, h3{
+
+  font-size: 43px;
+  color: #446392;
+
+}
+
+#produtos hr{
+
+    border:solid 1px LightBlue;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+#servicos h1, h3{
+
+  font-size: 43px;
+  color: #446392;
+
+}
+
+#servicos hr{
+
+  border:solid 1px LightBlue;
+  margin-top:20px;
+  margin-bottom:20px;
+
 }
 
 .slick-prev:before, .slick-next:before {
