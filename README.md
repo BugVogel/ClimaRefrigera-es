@@ -1,1 +1,0 @@
-# Clima Refrigerações - Projeto EcompJr
